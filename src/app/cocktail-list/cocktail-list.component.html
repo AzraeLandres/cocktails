@@ -1,0 +1,9 @@
+<h1>Cocktails</h1>
+
+<div class="container" *ngFor="let cocktail of cocktails">
+  <ul>
+    <li>{{ cocktail.name }}</li>
+    <li>{{ cocktail.price }}</li>
+    <img src="{{ cocktail.image }}" alt="" style="width: 300px" />
+  </ul>
+</div>
